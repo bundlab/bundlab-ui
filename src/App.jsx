@@ -1,14 +1,13 @@
-import React from 'react'
-import WelcomeDashboard from './WelcomeDashboard' // The component we wrote earlier
-import './App.css'
+import React from 'react';
+import './App.css'; // Now this file exists!
+import WelcomeDashboard from "./WelcomeDashboard.jsx";
 
 function App() {
   return (
     <div className="App">
-      {/* This renders your bundlab pulse dashboard */}
       <WelcomeDashboard />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,27 @@
+:root {
+  background-color: #0f172a; /* Deep Slate Blue */
+  color: #f8fafc;
+  font-family: 'Inter', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.App {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+/* Add a glowing pulse effect to your lab status */
+.pulse-glow {
+  box-shadow: 0 0 15px rgba(52, 211, 153, 0.2);
+  border: 1px solid rgba(52, 211, 153, 0.5);
+}
