@@ -47,5 +47,15 @@ const WelcomeDashboard = () => {
     </div>
   );
 };
+// Add a quick fetch function inside your component
+const checkStatus = async () => {
+  try {
+    const response = await fetch('http://localhost:8000/');
+    const data = await response.json();
+    console.log("Lab Status:", data);
+  } catch (error) {
+    console.error("Lab offline");
+  }
+};
 
 export default WelcomeDashboard;
